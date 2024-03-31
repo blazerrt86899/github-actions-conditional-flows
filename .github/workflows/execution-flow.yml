@@ -83,4 +83,4 @@ jobs:
       - name: Check reports
         run: |
           echo "Something went wrong ..."
-          echo "Let's see the context -> ${{ github }}"
+          echo "Let's see the context -> ${{ toJson(github) }}"
